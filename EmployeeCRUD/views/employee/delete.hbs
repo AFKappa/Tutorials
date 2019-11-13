@@ -1,0 +1,9 @@
+<h3>{{viewTitle}} {{employee.fullname}} ?</h3>
+
+<form action="/employee/{{employee._id}}?_method=DELETE" method="POST">
+    <br>
+    <div class="form-group">
+        <button type="submit" class="btn btn-danger"><i class="fa fa-database"></i> Remove</button>
+        <a class="btn btn-secondary" href="/employee/list"><i class="fa fa-list-alt"></i> Cancel</a>
+    </div>
+</form>
